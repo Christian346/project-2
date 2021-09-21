@@ -2,7 +2,7 @@ body{
     Font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color:hsl(0, 0%, 81%);
-    background-color: grey;
+    background-color:hsl(212, 44%, 95%);
 
 }
 .container{
@@ -16,52 +16,134 @@ body{
     row-gap:2em;
     /*grid gap 1 em for both upper things*/
     position: relative;
+    top:3vh;
     left:10%;
-    top:40px;
+    
 
 
 }
 .circle-img{
 border-radius:50%;
-
 }
 .one{
     background-image:url(/images/bg-pattern-quotation.svg);
+    background-position: left 80% top 0%;
     background-repeat: no-repeat;
     background-color:hsl(263, 55%, 52%);
     height:390%;
-    width:120%; 
+    width:130%; 
     position: relative;
     bottom:350%;
+    border-radius: 3%;
 }
 .two{
     background-color:hsl(217, 19%, 35%);
     height:390%;
-    width: 80%;
+    width: 70%;
     position: relative;
     bottom:350%;
-    left:20%;
+    left:30%;
+    border-radius: 3%;
 }
 .three{
     background-color:hsl(0, 0%, 100%);
-    height:820%;
-    width: 80%;
+    height:815%;
+    width: 70%;
     position: relative;
     bottom:350%;
+    border-radius: 3%;
 }
 .four{
     background-color:hsl(0, 0%, 100%);
     height:390%;
-    width:80%; 
+    width:70%; 
     position: relative;
     bottom:56%;
+    border-radius: 3%;
      
 }
 .five{
     background-color:hsl(219, 29%, 14%);
     height:390%;
-    width: 120%;
+    width: 130%;
     position:relative;
-    right:20%;
+    right:30%;
     bottom:56%;
+    border-radius: 3%;
 }
+    
+    
+/*cell media query*/
+@media screen and (max-width:376px) {
+    .container{
+        height: 100%;
+        width: 5%;
+        display: grid;
+        justify-content: center;/*center the thing*/
+        align-content:center; 
+        grid-template-columns: 1fr; /* split into 3 columsn % or fr*/ 
+        column-gap:0.5em;
+        row-gap:0.5em;
+        /*grid gap 1 em for both upper things*/
+        position: relative;
+        left:45%;
+        top:1%;
+    }
+    .circle-img{
+        height:8%;
+        width:8%;
+        
+        
+        }
+    .one{
+        background-position: left 93% top 0%;
+        background-size:20%;
+        height:60vh;
+        width:92vw; 
+        position: relative;
+        bottom:1%;
+        left:2%;
+        margin-top: 15%;
+        
+    }
+    .two{
+        
+        height:30vh;
+        width: 92vw;
+        position: relative;
+        top:2%;
+        left:2%;
+        
+    }
+    .three{
+       /*last*/
+        height:55vh;
+        width: 92vw;
+        position: relative;
+        top:140%;
+        left:2%;
+               
+    }
+    .four{
+        
+        height:30vh;
+        width:92vw; 
+        position: relative;
+        bottom:180%;
+        left:2%;
+        border-radius: 3%;
+         
+    }
+    .five{
+       /*fourth*/
+        height:40vh;
+        width: 92vw;
+        position:relative;
+        left:2%;
+        bottom:95%;
+        border-radius: 3%;
+        margin-bottom: 30%;
+    }
+    
+}
+

@@ -23,13 +23,13 @@ body{
 
 .circle-img{
 border-radius:50%;
-height: 11%;
-width:11%;
+height: 4.1vh;
+width:2.7vw;
 }
 .circle-img-lg{
     border-radius:50%;
-    height: 6%;
-    width:6%;
+    height: 4vh;
+    width:2.7vw;
 }
 
 .l-img-pos{
@@ -158,50 +158,53 @@ width:11%;
 /*cell media query*/
 @media screen and (max-width:376px) {
     .container{
-        height: 100%;
+        height:100%;
         width:75vw;
-        display: grid;
-        justify-content: center;/*center the thing*/
-        align-content:center; 
         grid-template-columns: 1fr; /* split into 3 columsn % or fr*/ 
         grid-gap:0.5em;
         /*grid gap 1 em for both upper things*/
         
     }
-
-        .circle-img-lg{
-            border-radius:50%;
-            height:10%;
-            width:10%;
+    .circle-img{   
+        height:4.8vh;
+        width:8vw;
+    }
+        .circle-img-lg{  
+            height:4.7vh;
+            width:8vw;
         }
-        .upper-inner-block{
-            position: relative;
+        .upper-inner-block{  
             bottom:40%;
             left:9%; 
         }
-        .upper-inner-block-s{
-            position: relative;
+        .upper-inner-block-s{   
             top:23%;
             left:9%; 
         }
         .upper-inner-block-xl{
-            position: relative;
             top:70%;
             left:9%; 
         }
         .l-img-pos{
-            position: relative;
+
             top: 7%;
             right:25%;
         }
         .xl-img-pos{
-            position: relative;
             top: 13.5%;
         }
         .u-i-b-text-pos{
-            position: relative;
-            bottom:5%;
+            bottom:4%;
+            left:27%;
+           }
+           .u-i-b-text-pos-s{
+            bottom:0%;
             left:28%;
+           }
+           .u-i-b-text-pos-l{
+            top:4%;
+            left:28%;
+
            }
 
     .one{
@@ -217,9 +220,7 @@ width:11%;
     }
     .two{
         
-        height:30vh;
         width: 92vw;
-        position: relative;
         top:2%;
         left:2%;
         
@@ -228,7 +229,6 @@ width:11%;
        /*last*/
         height:70vh;
         width: 92vw;
-        position: relative;
         top:88%;
         left:2%;
                
@@ -237,7 +237,6 @@ width:11%;
         
         height:30vh;
         width:92vw; 
-        position: relative;
         bottom:350%;
         left:2%;    
     }
@@ -245,7 +244,6 @@ width:11%;
        /*fourth*/
         height:60vh;
         width: 92vw;
-        position:relative;
         left:2%;
         bottom:172%;
         

@@ -23,6 +23,13 @@ body{
 }
 
 .circle-img{
+
+border-radius:50vh;
+height: 4.1vh;
+width:2.7vw;
+}
+.circle-img-2{
+border:3px solid hsl(263, 32%, 62%);
 border-radius:50vh;
 height: 4.1vh;
 width:2.7vw;
@@ -63,7 +70,7 @@ width:2.7vw;
     margin: 3vw;
     overflow: auto;  
     position: relative;
-    bottom:5vh;
+    bottom:6vh;
     
 }
 .inner-block{
@@ -71,7 +78,7 @@ width:2.7vw;
     margin: 2vw;
     overflow: auto;  
     position: relative;
-    bottom:5vh;
+    bottom:6vh;
     
 }
 .inner-block-md{
@@ -146,7 +153,7 @@ width:2.7vw;
 /*cell media query*/
 @media screen and (max-width:376px) {
     body{
-        background-color: red;
+       
         padding-top:10vh;
         padding-bottom: 180vh;
     }
@@ -163,49 +170,62 @@ width:2.7vw;
         height:4.8vh;
         width:8vw;
     }
+    .circle-img-2{
+       
+        height: 4.8vh;
+        width:8vw;
+        }
+    .inner-block-s{
+        margin: 8vw;
+        bottom:8vh;
+        
+    }
+    .inner-block{
+        margin: 8vw; 
+        bottom:2vh;
+        
+    }
+    .inner-block-md{
+       
+        margin: 8.5vw;
+        bottom:9vh;
+    }
         
         .upper-inner-block{  
-            bottom:40%;
-            left:9%; 
+            top:4vh;
+            left:8vw; 
         }
         .upper-inner-block-s{   
-            top:23%;
-            left:9%; 
+            top:4vh;
+            left:8vw; 
         }
         .upper-inner-block-xl{
-            top:70%;
-            left:9%; 
+            top:4vh;
+            left:8vw; 
         }
-        .l-img-pos{
-
-            top: 7%;
-            right:25%;
-        }
-        .xl-img-pos{
-            top: 13.5%;
-        }
+        
         .u-i-b-text-pos{
-            bottom:4%;
-            left:27%;
+            bottom:3vh;
+            left:21vw;
            }
            .u-i-b-text-pos-s{
-            bottom:0%;
-            left:28%;
+            bottom:3vh;
+            left:21vw;
            }
            .u-i-b-text-pos-l{
-            top:4%;
-            left:28%;
-
+            bottom:2.5vh;
+            left:19vw;
            }
 
     .one{
-        background-position: left 50vw top 0vh;
+        background-position: left 60vw top 0vh;
         background-size:15vh;
         height:60vh;
         width:92vw; 
         position: relative;
         top:49vh;
         left:0vh;
+        
     }
     .two{
         width:92vw;

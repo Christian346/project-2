@@ -18,7 +18,7 @@ body{
     row-gap:2em;
     /*grid gap 1 em for both upper things*/
     position: relative;
-    top:30vh;
+    top:20vh;
     left:14vw;
 }
 
@@ -42,10 +42,16 @@ width:2.7vw;
    }
 .u-i-b-text-pos{
     position: relative;
-    bottom:1.5vh;
+    bottom:2vh;
     left:7vw;
+    
    }
-   
+   .sm-p{
+       font-size:0.86em;
+       position: relative;
+       bottom:1.1vh;
+   }
+ 
    .u-i-b-text-pos-l{
     position: relative;
     bottom:1.5vh;
@@ -78,7 +84,7 @@ width:2.7vw;
     margin: 2vw;
     overflow: auto;  
     position: relative;
-    bottom:6vh;
+    bottom:5vh;
     
 }
 .inner-block-md{
@@ -93,7 +99,7 @@ width:2.7vw;
 }
 
 .one{
-    background-image:url(/images/bg-pattern-quotation.svg);
+    background-image:url(images/bg-pattern-quotation.svg);
     background-position: left 22vw top 0vh;
     background-repeat: no-repeat;
     background-size: 12.5vh;
@@ -216,6 +222,12 @@ width:2.7vw;
             bottom:2.5vh;
             left:19vw;
            }
+           .sm-p{
+            font-size:0.86em;
+            position: relative;
+            bottom:1.6vh;
+        }
+      
 
     .one{
         background-position: left 60vw top 0vh;

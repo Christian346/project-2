@@ -24,44 +24,51 @@ body{
 
 .circle-img{
 
-border-radius:50vh;
-height: 4.1vh;
-width:2.7vw;
+border-radius:50%;
+height: 4vh;
+width:2vw;
 }
 .circle-img-2{
 border:3px solid hsl(263, 32%, 62%);
-border-radius:50vh;
-height: 4.1vh;
-width:2.7vw;
+border-radius:50%;
+height: 4vh;
+width:2vw;
 }
 
 .u-i-b-text-pos-s{
     position: relative;
-    bottom:1.5vh;
-    left:7vw;
+    bottom:2.5vh;
+    left:5vw;
    }
 .u-i-b-text-pos{
     position: relative;
-    bottom:2vh;
-    left:7vw;
+    bottom:3.5vh;
+    left:6vw;
     
    }
    .sm-p{
        font-size:0.86em;
        position: relative;
-       bottom:1.1vh;
+       bottom:1.2vh;
    }
  
    .u-i-b-text-pos-l{
     position: relative;
-    bottom:1.5vh;
-    left:6vw;
+    bottom:2.5vh;
+    left:5vw;
    }
+   .upper-inner-block-s{
+    position: relative;
+    top: 3.5vh;
+    left:2vw;
+    display:flex;
+    
+}
 
 .upper-inner-block{
     position: relative;
-    top: 3.5vh;
-    left:2.9vw;
+    top: 3vh;
+    left:2.6vw;
     display:flex;
     
 }
@@ -76,7 +83,7 @@ width:2.7vw;
     margin: 3vw;
     overflow: auto;  
     position: relative;
-    bottom:6vh;
+    bottom:11vh;
     
 }
 .inner-block{
@@ -84,7 +91,7 @@ width:2.7vw;
     margin: 2vw;
     overflow: auto;  
     position: relative;
-    bottom:5vh;
+    bottom:9vh;
     
 }
 .inner-block-md{
@@ -92,7 +99,7 @@ width:2.7vw;
     margin: 3vw;
     overflow: auto;  
     position: relative;
-    bottom:6vh;
+    bottom:12vh;
 }
 .w-box{
   color:black;
@@ -102,7 +109,7 @@ width:2.7vw;
     background-image:url(images/bg-pattern-quotation.svg);
     background-position: left 22vw top 0vh;
     background-repeat: no-repeat;
-    background-size: 12.5vh;
+    background-size: 14vh;
     background-color:hsl(263, 55%, 52%);
     height:30vh;
     width:36vw; 

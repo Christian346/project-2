@@ -1,5 +1,5 @@
 body{
-    Font-size: 0.8125em;
+    Font-size: 1.4vw;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color:hsl(0, 0%, 81%);
     background-color:hsl(212, 44%, 95%);
@@ -25,8 +25,12 @@ body{
 .circle-img{
 
 border-radius:50%;
-height: 4vh;
-width:2vw;
+height:30%;
+width:16.5%;
+
+
+
+ /*solution lies here*/
 }
 .circle-img-2{
 border:3px solid hsl(263, 32%, 62%);
@@ -47,15 +51,16 @@ width:2vw;
     
    }
    .sm-p{
-       font-size:0.86em;
+       font-size:90%;
        position: relative;
-       bottom:1.2vh;
+       bottom:18%;
+       /*solution lies here*/
    }
  
    .u-i-b-text-pos-l{
     position: relative;
-    bottom:2.5vh;
-    left:5vw;
+    bottom:1.5vw;
+    left:1vw;/*solution lies here*/
    }
    .upper-inner-block-s{
     position: relative;
@@ -74,8 +79,8 @@ width:2vw;
 }
 .upper-inner-block-xl{
     position: relative;
-    top: 3.5vh;
-    left:2vw;
+    top: 2.9vw;
+    left:8%;/*solution lies here*/
     display:flex;  
 }
 .inner-block-s{
@@ -83,23 +88,23 @@ width:2vw;
     margin: 3vw;
     overflow: auto;  
     position: relative;
-    bottom:11vh;
+    bottom:8vh;
     
 }
 .inner-block{
     display: inline-block;
-    margin: 2vw;
+    margin: 8%;
     overflow: auto;  
     position: relative;
-    bottom:9vh;
+    top:%;
     
 }
 .inner-block-md{
     display: inline-block;
-    margin: 3vw;
+    margin: 3vh;
     overflow: auto;  
     position: relative;
-    bottom:12vh;
+    bottom:9vh;
 }
 .w-box{
   color:black;

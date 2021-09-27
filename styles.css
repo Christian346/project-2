@@ -1,0 +1,296 @@
+body{
+    Font-size: 1vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color:hsl(0, 0%, 81%);
+    background-color:hsl(212, 44%, 95%);
+    /*hsl(212, 44%, 95%)*/
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;/*center the thing*/
+    align-content:center; 
+    grid-template-columns: 1fr 1fr 1fr; /* split into 3 columsn % or fr*/ 
+    column-gap:2em;
+    row-gap:2em;
+    /*grid gap 1 em for both upper things*/
+    position: relative;
+    top:15vh;
+    left:8vw;
+}
+
+.circle-img{
+border-radius:50%;
+height:30%;
+width:13.5%;
+
+ /*solution lies here*/
+}
+.circle-img-2{
+border:3px solid hsl(263, 32%, 62%);
+border-radius:50%;
+height: 30%;
+width:7%;
+/*touched*/
+}
+
+.u-i-b-text-pos-s{
+    position: relative;
+    bottom:0.9vw;
+    left:1.3vw;
+    /*touched*/
+   }
+.u-i-b-text-pos{
+    position: relative;
+    bottom:0.8vw;
+    left:1vw;
+    /*touched*/
+    
+   }
+   .sm-p{
+       font-size:90%;
+       position: relative;
+       bottom:18%;
+       /*solution lies here*/
+   }
+ 
+   .u-i-b-text-pos-l{
+    position: relative;
+    bottom:0.8vw;
+    left:1vw;/*solution lies here*/
+   }
+   .upper-inner-block-s{
+    position: relative;
+    top: 2vw;
+    left:13%;
+    display:flex;
+    /*touched*/
+    
+}
+
+.upper-inner-block{
+    position: relative;
+    top: 2vw;
+    left:7%;
+    display:flex;
+    /*touched*/
+    
+}
+.upper-inner-block-xl{
+    position: relative;
+    top: 2vw;
+    left:13%;/*solution lies here*/
+    display:flex;  
+}
+.inner-block-s{
+    display: inline-block;
+    margin: 14%;
+    overflow: auto;  
+    position: relative;
+    bottom:2.9vw;
+    /*touched*/
+    
+}
+.inner-block{
+    display: inline-block;
+    margin: 2vw;
+    overflow: auto;  
+    position: relative;
+    bottom:2.8vw;/*solution lies here*/
+    
+}
+.inner-block-md{
+    display: inline-block;
+    margin: 7%;
+    overflow: auto;  
+    position: relative;
+    bottom:2.7vw;
+    /*touched*/
+}
+.w-box{
+  color:black;
+}
+
+.one{
+    background-image:url(images/bg-pattern-quotation.svg);
+    background-position: left 22vw top 0vh;
+    background-repeat: no-repeat;
+    background-size: 8.5vw;
+    background-color:hsl(263, 55%, 52%);
+    height:30vh;
+    width:36vw; 
+    border-radius: 1vh;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow:1px 1px 10px hsl(218, 13%, 24%);
+
+}
+.two{
+    background-color:hsl(217, 19%, 35%);
+    height:30vh;
+    width: 20vw;
+    position: relative;
+    left:1vw;
+    border-radius: 1vh;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow:1px 1px 10px hsl(218, 13%, 24%);
+
+}
+.three{
+    background-color:hsl(0, 0%, 100%);
+    height:65vh;
+    width: 20vw;
+    position: relative;
+    right:14vw;
+    border-radius: 1vh;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow:1px 1px 10px lightgrey;
+
+}
+.four{
+    background-color:hsl(0, 0%, 100%);
+    height:30vh;
+    width:20vw; 
+    position: relative;
+    bottom: 33vh;
+    border-radius:1vh;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow:1px 1px 10px hsl(218, 13%, 24%);
+
+}
+.five{
+    background-color:hsl(219, 29%, 14%);
+    height:30vh;
+    width: 36vw;
+    position:relative;
+    right:15vw;
+    bottom:33vh;
+    border-radius:1vh;
+    overflow: auto;
+    overflow-x: hidden;
+    box-shadow:1px 1px 10px hsl(218, 13%, 24%);
+
+}
+/*cell media query*/
+@media screen and (max-width:376px) {
+    body{
+       
+        padding-top:10vh;
+        padding-bottom: 180vh;
+        font-size:1.7vh
+    }
+    .container{
+        height:100vh;
+        width:19vw;
+        grid-template-columns: 1fr; /* split into 3 columsn % or fr*/ 
+        grid-gap:0.5em;
+        /*grid gap 1 em for both upper things*/
+        left:38vw;
+        top:30vh;
+        
+    }
+    .circle-img{   
+        height:4.5vh;
+        width:8vw;
+    }
+    .circle-img-2{
+       
+        height: 4.1vh;
+        width:7vw;
+        }
+    .inner-block-s{
+        margin: 8vw;
+        bottom:7vw;
+        
+    }
+    .inner-block{
+        margin: 8vw; 
+        bottom:9vw;
+        
+    }
+    .inner-block-md{
+       
+        margin: 8.5vw;
+        bottom:8vw;
+    }
+        
+        .upper-inner-block{  
+            top:4vh;
+            left:8vw; 
+        }
+        .upper-inner-block-s{   
+            top:4vh;
+            left:8vw; 
+        }
+        .upper-inner-block-xl{
+            top:4vh;
+            left:8vw; 
+        }
+        
+        .u-i-b-text-pos{
+            bottom:1.9vw;
+            left:4vw;
+           }
+           .u-i-b-text-pos-s{
+            bottom:1.3vh;
+            left:4vw;
+           }
+           .u-i-b-text-pos-l{
+            bottom:3vw;
+            left:4vw;
+           }
+           .sm-p{
+            font-size:0.86em;
+            position: relative;
+            bottom:1.6vh;
+        }
+      
+
+    .one{
+        background-position: left 60vw top 0vh;
+        background-size:15vh;
+        height:60vh;
+        width:92vw; 
+        position: relative;
+        top:49vh;
+        left:0vh;
+        overflow: hidden;
+        
+    }
+    .two{
+        width:92vw;
+        top:52vh;
+        left:0vw; 
+        overflow: hidden;
+    }
+    .three{
+       /*last*/
+        height:70vh;
+        width: 92vw;
+        top:151vh;
+        left:0vh; 
+        overflow: hidden;       
+    }
+    .four{
+        height:30vh;
+        width:92vw; 
+        bottom:16vh;
+        left:0vh;   
+        overflow: hidden; 
+    }
+    .five{
+       /*fourth*/
+        height:60vh;
+        width: 92vw;
+        left:0vh;
+        bottom:14vh;  
+        overflow: hidden;
+    }
+    
+}
+

@@ -123,7 +123,7 @@ width:7%;
     height:30vh;
     width:36vw; 
     border-radius: 1vh;
-    overflow: auto;
+    overflow-x: hidden;
     box-shadow:1px 1px 10px hsl(218, 13%, 24%);
     
 }
@@ -134,7 +134,7 @@ width:7%;
     position: relative;
     left:1vw;
     border-radius: 1vh;
-    overflow: auto;
+    overflow-x: hidden;
     box-shadow:1px 1px 10px hsl(218, 13%, 24%);
    
 }
@@ -145,7 +145,7 @@ width:7%;
     position: relative;
     right:14vw;
     border-radius: 1vh;
-    overflow: auto;
+    overflow-x: hidden;
     box-shadow:1px 1px 10px lightgrey;
    
 }
@@ -156,7 +156,7 @@ width:7%;
     position: relative;
     bottom: 33vh;
     border-radius:1vh;
-    overflow: auto;
+    overflow-x: hidden;
     box-shadow:1px 1px 10px hsl(218, 13%, 24%);
 
 }
@@ -168,7 +168,7 @@ width:7%;
     right:15vw;
     bottom:33vh;
     border-radius:1vh;
-    overflow: auto;
+    overflow-x: hidden;
     box-shadow:1px 1px 10px hsl(218, 13%, 24%);
     
 }
